@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="view port" content="width=device-width,initial-scale=1">
+    <title> cats</title>
+    <style media="screen">
+    h1{
+      text-align: center;
+      color: #c45e45;
+    }
+    .main{
+      display: flex;
+margin: auto;
+      justify-content: center;
+}
+    img{
+      max-width: 100%;
+          }
+  </style>
+  </head>
+  <body>
+    <h1>Responsive Images</h1>
+    <p>this is about responsive images with different cats.</p>
+<picture class="main">
+  <source media="(min-width:769px)"srcset="kitten-large.png">
+    <sourcemedia="(min-width:480px)"srcset="kitten-large.png">
+    <img src="kitten-small.png" alt="kitten cat">
+</picture>
+  </body>
+</html>
